@@ -57,15 +57,18 @@
     font-family: Arial, sans-serif; /* Fonte padrão (opcional) */
   }
 
-  .a4-container {
-    /* Ajustes de container, se necessário */
+.a4-container {
     width: 210mm; /* Largura A4 */
     min-height: 297mm; /* Altura A4 */
     margin: 0 auto;
     padding: 20mm;
-    background-color: rgba(255, 255, 255, 0.8); /* Leve transparência para ver o background */
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  }
+    background-color: rgba(255, 255, 255, 0.15); /* Mais transparente, efeito mais claro */
+    backdrop-filter: blur(5px); /* Desfoque menor para clarear */
+    -webkit-backdrop-filter: blur(5px); /* Compatibilidade com Safari */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra mais leve */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Contorno mais discreto */
+}
 </style>
 </head>
   <body>
