@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coordenação Pedagógica</title> 
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .btn {
+      padding: 20px 40px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(135deg, #8e44ad, #2980b9);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+      background: linear-gradient(135deg, #9b59b6, #3498db);
+    }
+  </style>
+</head>
+<body>
+
+   <div class="button-container">
+    <a href="https://docs.google.com/document/d/1VNEgV70xUsUecYXyiF2pdk9Yhhtw9V-A/edit?usp=sharing&ouid=118172835587143253550&rtpof=true&sd=true" target="_blank" class="btn">
+      Preencher Plano de Aula 
+    </a>
+    <a href="https://forms.gle/wkKtv8SyQTYwQ5CA8" target="_blank" class="btn"> 
+      Enviar Plano - EFAI 
+    </a>
+    <a href="https://forms.gle/bhRJJUKuHcnUvznB6" target="_blank" class="btn"> 
+      Enviar Plano - EFAF 
+    </a>
+<a href="https://forms.gle/iuLVnvpRWHfk11f77" target="_blank" class="btn"> 
+      Enviar Plano - Ensino Médio
+    </a>
+<a href="https://forms.gle/7QyiVEcCtjtQVHET9" target="_blank" class="btn"> 
+      Enviar Plano - Ensino Técnico 
+    </a>
+  </div>
+
+
+</body>
+</html>
