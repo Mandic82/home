@@ -1,79 +1,108 @@
-<!DOCTYPE html> 
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coordenação Pedagógica</title> 
+ <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel das Coordenadoras - Escola Caetano de Campos</title>
 
   <style>
-    html, body {
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body, html {
       height: 100%;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      /* Background com overlay opaco usando arquivo local */
-      background: 
-        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /* camada opaca 50% */
-        url('Virtual_ Background.png') no-repeat center center fixed;
+      background-image: url('https://png.pngtree.com/background/20210714/original/pngtree-blue-minimalistic-geometric-education-academic-advertising-detail-page-vector-background-picture-image_1074474.jpg');
       background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
-    .button-container {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      align-items: center;
-      margin: 20px 0;
+    .panel {
+      background: rgba(255, 255, 255, 0.95);
+      border: 2px solid #999999;
+      border-radius: 10px;
+      padding: 30px 40px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      max-width: 700px;
+      width: 100%;
+      text-align: center;
     }
 
-    .btn {
-      padding: 20px 40px;
-      font-size: 1.5rem;
+    .logo {
+      max-width: 180px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #003366;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #ff212f;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    th, td {
+      border: 1px solid #757575;
+      padding: 10px;
+      word-wrap: break-word;
+      text-align: left;
+    }
+
+    td.name {
       font-weight: bold;
-      color: #fff;
-      background: linear-gradient(135deg, #8e44ad, #2980b9);
-      border: none;
-      border-radius: 12px;
-      cursor: pointer;
-      text-decoration: none;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-      transition: all 0.3s ease;
-      position: relative;
+      color: #000;
+      width: 60%;
     }
 
-    .btn:hover {
-      transform: scale(1.1);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.6);
-      background: linear-gradient(135deg, #9b59b6, #3498db);
- body {
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding padrão */
-    background-image: url('Virtual_Background.png'); /* Caminho para a imagem */
-    background-size: cover; /* Faz a imagem cobrir todo o corpo da página */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-position: center center; /* Centraliza a imagem */
-    font-family: Arial, sans-serif; /* Fonte padrão (opcional) */
-  }
+    td.link {
+      width: 40%;
+    }
 
-.a4-container {
-    width: 210mm; /* Largura A4 */
-    min-height: 297mm; /* Altura A4 */
-    margin: 0 auto;
-    padding: 20mm;
-    background-color: rgba(255, 255, 255, 0.15); /* Mais transparente, efeito mais claro */
-    backdrop-filter: blur(5px); /* Desfoque menor para clarear */
-    -webkit-backdrop-filter: blur(5px); /* Compatibilidade com Safari */
-    border-radius: 15px; /* Bordas arredondadas */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra mais leve */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Contorno mais discreto */
-}
-</style>
+    a.btn-link {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    a.btn-link:hover {
+      background-color: #1ebe5a;
+    }
+    .logo-container {
+      width: 100px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .logo-container img {
+      max-width: 100px;
+      height: auto;
+    }
+  </style>
 </head>
+</style>
   <body>
   <div class="a4-container">
-    
+     <table>
+      <tbody>
     <h1>Acesso Coordenação - Planos de Aula</h1>
     <h2>Escola Estadual Caetano de Campos</h2>
     <table>
@@ -113,5 +142,6 @@
       </tbody>
     </table>
   </div>
+</div>
 </body>
 </html>
