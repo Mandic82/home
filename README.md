@@ -9,7 +9,7 @@ O objetivo da página é disponibilizar, de forma simples e centralizada, **link
 
 ## 🚀 Acesso
 A página pode ser acessada pelo link:  
-👉 [Clique aqui para abrir a Home Page](https://seu-usuario.github.io/nome-do-repositorio/)
+👉 [Clique aqui para abrir a Home Page](https://mandic82.github.io/home/index2.html)
 
 ## 📂 Estrutura do Projeto
 - `index.html` → Página principal com os links de acesso.  
